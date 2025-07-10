@@ -81,7 +81,7 @@ body {
 
 /* Navigation */
 .nav-ul {
-  @apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20 backdrop-blur-lg rounded-4xl;
+  @apply flex flex-col items-center gap-4 sm:flex-row md:gap-6 relative z-20  rounded-4xl;
 }
 
 .nav-li {
@@ -135,4 +135,8 @@ body {
 
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
+}
+
+html {
+  scroll-behavior: smooth;
 }

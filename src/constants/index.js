@@ -163,137 +163,96 @@ export const myProjects = [
     id: 6,
     title: "Main Portfolio",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "My Main Portfolio made using React.js and TailwindCSS.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Contains All the info About Me.",
     ],
-    href: "",
+    href: "https://github.com/Ujjwal3115/Main_portfolio",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/Main_portfolio.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
+        name: "React",
        },
       {
         id: 2,
-        name: "Azure",
+        name: "TailwindCSS",
        },
       {
         id: 3,
-        name: "Stripe",
-       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-       },
+        name: "Gsap",
+       }
     ],
   },
 ];
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    name: "Github",
+    href: "https://github.com/Ujjwal3115",
+    icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/ujjwalverma3115/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    name: "twitter",
+    href: "https://twitter.com/ujjwal3115",
+    icon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-white-icon.png",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "JCB India Headquaters",
+    job: "ML Developer",
+    date: "Jun - Jul 2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Worked as Ml Developer in the IT department of JCB India HQ, Faridabad.",
+      "Contributed in the development of ML Models for the Inventory Management.",
+      "Learned Working on Power Platform.",
+      "Made PowerApps for the department."
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Microsoft & SAP Collaboration, Edunet Foundation Initiative",
+    job: "Trainee in TechSaksham Training Program",
+    date: "Feb - Mar 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Participated in the TechSaksham Training Program, a joint CSR initiative by Microsoft and SAP, facilitated by Edunet Foundation. Over 100 hours (Feb - Mar 2025).",
+      "I completed a certification in IR4.0 Technologies, mastering Linux, Advanced Python, SQL, and Data Analysis.",
+      "The program included real-world project implementations and industry mentorship, significantly enhancing my data analytics skills and preparing me for practical tech applications."
     ],
   },
 ];
-export const reviews = [
+
+export const certifications = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    name: "Programing in Java",
+    issuer: "NPTEL with IIT Kharagpur Collaboration",
+    date: "April 2025",
+    link: "https://drive.google.com/file/d/1kTS-XPEO7RcINrIRymD0SD3cQ36Lz9gR/view?usp=sharing"
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    name: "TechSaksham Training Program",
+    issuer: "Edunet with Microsoft & SAP Collaboration",
+    date: "March 2025",
+    link: "https://drive.google.com/file/d/1Wv1lUooc_MNDVeydgRk0J9tmvtr_PuLa/view?usp=sharing"
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    name: "Introduction to python",
+    issuer: "Infosys Springboard",
+    date: "April 2024",
+    link: "https://drive.google.com/file/d/1JXXti4hoj8QFSkYZq-kjJTrAUoYBo8T3/view?usp=sharing"
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    name: "C Certification",
+    issuer: "Spoken Tutorial Project at IIT Bombay",
+    date: "December 2023",
+    link: "https://drive.google.com/file/d/1pIpRPXozDhJGlLuLy1ozQALmtbQmkIUE/view?usp=sharing"
   },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
+
 ];
